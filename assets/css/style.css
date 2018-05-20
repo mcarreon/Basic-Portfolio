@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    background: url(../images/grey_sandbag.png)
+}
+
+header {
+    background-color: white;
+    color: white;
+    margin: 0px;
+    border-bottom: 2px solid #cccccc;
+    box-shadow: 0px 1px .5px grey;
+}
+
+ul {
+    color: #777777;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    color: inherit;
+    text-decoration: none;
+    background-color: #ddd
+}
+
+nav {
+    position: absolute;
+    text-align: center;
+    width: 75%;
+    margin-left: 75%;
+    top: 0px;
+    margin-top: 24px; 
+}
+
+section {
+    clear: both;
+}
+
+#navName {
+    background-color: #4AAAA5;
+    width: 200px;
+    padding: 25px 20px 25px 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
