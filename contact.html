@@ -22,16 +22,16 @@
     <section>
         <h1>Contact</h1>
         <hr>
-        <form>
+        <form id="contactForm">
             <div class="sectContact">
                 Name: <br>
                 <input type="text" name="name" class="textInput"/><br>
                 Email: <br>
                 <input type="text" name="email" class="textInput"/><br>
                 Message: <br>
-                <input type="text" name="message" class="textInput msg"/><br>
+                <textArea name="message" form="contactForm" class="textInput msg"></textArea><br>
             </div>
-            <input type="submit" name="submit" class="textSubmit"/>
+            <button type="button" name="submit" class="textSubmit">Submit</button>
         </form>
     </section>
     <footer>
