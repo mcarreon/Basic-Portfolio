@@ -184,6 +184,11 @@ input {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+#navNameLink{
+    margin: 0;
+    padding: 0; 
+}
+
 #portNav {
     border-right: 2px solid #F6F6F6;
     border-left: 2px solid #F6F6F6;
